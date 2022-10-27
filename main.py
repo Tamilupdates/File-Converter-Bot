@@ -1369,9 +1369,6 @@ def text(client: pyrogram.client.Client, message: pyrogram.types.messages_and_me
         if str(message.from_user.id) == str(message.chat.id):
             app.send_message(message.chat.id, '__for Text messages, You can use **/make** to Create a File from it.\n(first line of text will be trancated and used as filename)__', reply_to_message_id=message.id)
             
-            
-          
-
-#apprun
-print("Bot Started")
-app.run()
+        #apprun
+        print("Bot Started")
+        app.run()
